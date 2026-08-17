@@ -5,6 +5,8 @@ detect_yolo/
 
 ↓
 
+return in each video folder a csv file storing potholes prediction information. Ex: video_01
+
 predictions.csv
 
 ↓
@@ -13,8 +15,10 @@ evaluate.py
 
 ↓
 
-matched_frame.csv
-summary.csv
+return in each video folder a csv file storing potholes maching information based on each method. Ex: video_01
+
+matched_frame.csv # This file stores maching infomation
+video_01_summary.csv # This file stores summary of matched_frame.csv
 
 ↓
 
